@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Quiz das Macromoléculas</title>
+</head>
+<body>
+    <main>
+        <section id="quizz">
+            <h1>Teste seus conhecimentos!</h1>
+            <p>Responda às perguntas sobre as cinco macromoléculas.</p>
+        </section>
+
+        <form id="quiz">
+             <fieldset>
+                <legend>1. O que são polímeros?</legend>
+                <label><input type="radio" name="q1" value="a"> A) Moléculas formadas apenas por lipídios.</label><br>
+                <label><input type="radio" name="q1" value="b"> B) Moléculas grandes formadas pela repetição de unidades menores.</label><br>
+                <label><input type="radio" name="q1" value="c"> C) Substâncias encontradas somente nos seres vivos.</label><br>
+                <label><input type="radio" name="q1" value="d"> D) Moléculas que não possuem carbono.</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>2. Qual alternativa apresenta um polímero natural e um sintético, respectivamente?</legend>
+                <label><input type="radio" name="q2" value="a"> A) Amido e polietileno.</label><br>
+                <label><input type="radio" name="q2" value="b"> B) Plástico e celulose.</label><br>
+                <label><input type="radio" name="q2" value="c"> C) Nylon e proteínas.</label><br>
+                <label><input type="radio" name="q2" value="d"> D) Polietileno e borracha natural.</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>3. Qual é um impacto ambiental dos polímeros sintéticos?</legend>
+                <label><input type="radio" name="q3" value="a"> A) Aumentam a produção de oxigênio.</label><br>
+                <label><input type="radio" name="q3" value="b"> B) Desaparecem imediatamente na natureza.</label><br>
+                <label><input type="radio" name="q3" value="c"> C) Podem se acumular no ambiente e formar microplásticos.</label><br>
+                <label><input type="radio" name="q3" value="d"> D) Impedem a poluição da água.</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>4. Qual é uma das principais funções dos lipídios no organismo?</legend>
+                <label><input type="radio" name="q4" value="a"> A) Armazenar energia e participar da formação das membranas celulares.</label><br>
+                <label><input type="radio" name="q4" value="b"> B) Transportar exclusivamente informações genéticas.</label><br>
+                <label><input type="radio" name="q4" value="c"> C) Formar os genes do DNA.</label><br>
+                <label><input type="radio" name="q4" value="d"> D) Produzir amido nas células humanas.</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>5. Qual alimento é uma fonte importante de lipídios?</legend>
+                <label><input type="radio" name="q5" value="a"> A) Azeite de oliva.</label><br>
+                <label><input type="radio" name="q5" value="b"> B) Água pura.</label><br>
+                <label><input type="radio" name="q5" value="c"> C) Sal de cozinha.</label><br>
+                <label><input type="radio" name="q5" value="d"> D) Açúcar refinado.</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>6. Como os carboidratos são classificados de acordo com o número de unidades de açúcar?</legend>
+                <label><input type="radio" name="q6" value="a"> A) Naturais, artificiais e minerais.</label><br>
+                <label><input type="radio" name="q6" value="b"> B) Saturados, insaturados e trans.</label><br>
+                <label><input type="radio" name="q6" value="c"> C) Mono-, di- e polissacarídeos.</label><br>
+                <label><input type="radio" name="q6" value="d"> D) DNA, RNA e proteínas.</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>7. Qual alternativa relaciona corretamente um carboidrato à sua função?</legend>
+                <label><input type="radio" name="q7" value="a"> A) Glicose — fonte de energia para as células.</label><br>
+                <label><input type="radio" name="q7" value="b"> B) Celulose — armazenamento de informação genética.</label><br>
+                <label><input type="radio" name="q7" value="c"> C) Amido — formação de anticorpos.</label><br>
+                <label><input type="radio" name="q7" value="d"> D) Lactose — transporte de oxigênio no sangue.</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>8. O que são aminoácidos?</legend>
+                <label><input type="radio" name="q8" value="a"> A) Unidades que formam as proteínas.</label><br>
+                <label><input type="radio" name="q8" value="b"> B) Tipos de ácidos nucleicos.</label><br>
+                <label><input type="radio" name="q8" value="c"> C) Lipídios encontrados somente em vegetais.</label><br>
+                <label><input type="radio" name="q8" value="d"> D) Açúcares simples.</label>
+            </fieldset>
+
+            <button type="submit">Finalizar quiz</button>
+        </form>
+
+        <section id="resultado" hidden>
+            <h2>Resultado do quiz</h2>
+            <p id="pontuacao"></p>
+            <p id="mensagem"></p>
+            <div id="feedback"></div>
+            <button type="button" id="reiniciar">Refazer quiz</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto desenvolvido por Maria Clara L. e Maria Paula L.</p>
+    </footer>
+</body>
+</html>
